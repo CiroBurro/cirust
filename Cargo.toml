@@ -1,5 +1,5 @@
 [workspace]
-members = [
+members = [ "ciro_canzone",
     "hello_world",
     "tutorial"
 ]
