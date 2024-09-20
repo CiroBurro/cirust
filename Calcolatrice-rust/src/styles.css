@@ -1,0 +1,76 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #f6f6f6;
+  background-color: #141d30;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+.container {
+  margin: 0;
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.schermo {
+  width: 350px;
+  height: 115px;
+  background-color: #0f0f0f;
+  margin: 0 auto; /* Centra orizzontalmente */
+  display: flex; /* Abilita flexbox */
+  justify-content: center; /* Centra orizzontalmente il contenuto */
+  align-items: center; /* Centra verticalmente il contenuto */
+  border: 1px solid limegreen;
+  border-radius: 8px;
+  font-size: 30px;
+}
+
+.tastiera {
+  width: 350px;
+  height: 300px;
+  margin: 60px auto; /* Centra orizzontalmente */
+}
+
+.tasto {
+  width: 60px;
+  height: 60px;
+  background-color: #111722;
+  border: 1px solid limegreen;
+  margin: 7px;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.uguale {
+  width: 60px;
+  height: 60px;
+  background-color: #111722;
+  border: 1px solid limegreen;
+  margin: 7px;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.operatore {
+  background-color: #111722;
+  border: 1px solid rgb(255, 106, 0);
+  margin: 7px;
+  color: white;
+  font-size: 20px;
+}
+
+

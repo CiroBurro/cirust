@@ -1,5 +1,5 @@
 [workspace]
 members = [ "ciro_canzone", "fibonacci",
     "hello_world", "ownership",
-    "tutorial"
-]
+    "tutorial", "Calcolatrice-rust/src-tauri", "calcolatrice_test"]
+resolver = "2"

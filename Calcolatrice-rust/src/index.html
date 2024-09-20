@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcolatrice</title>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="schermo"></div>
+      <div class="tastiera">
+        <button class="tasto" data-valore="7">7</button>
+        <button class="tasto" data-valore="8">8</button>
+        <button class="tasto" data-valore="9">9</button>
+        <button class="tasto operatore" data-valore="/">÷</button>
+        <br>
+        <button class="tasto" data-valore="4">4</button>
+        <button class="tasto" data-valore="5">5</button>
+        <button class="tasto" data-valore="6">6</button>
+        <button class="tasto operatore" data-valore="*">×</button>
+        <br>
+        
+        <button class="tasto" data-valore="1">1</button>
+        <button class="tasto" data-valore="2">2</button>
+        <button class="tasto" data-valore="3">3</button>
+        <button class="tasto operatore" data-valore="-">-</button>
+        <br>
+        <button class="tasto" data-valore="0">0</button>
+        <button class="tasto" data-valore=".">.</button>
+        <button class="uguale" data-valore="=">=</button>
+        <button class="tasto operatore" data-valore="+">+</button>
+        <br class="spazio">
+        <button class="tasto reset" data-valore="C" style="width: 130px; margin-top: 8px;">C</button>
+      </div>
+    </div>
+  </body>
+</html>
