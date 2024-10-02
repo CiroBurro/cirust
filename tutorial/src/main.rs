@@ -1,14 +1,5 @@
 //tutorial rust
 
-fn main() {
-    variabili();
-    tipi_dati();
-    operazioni();
-    let risultato = somma(5, 5);
-    println!("Il risultato della somma è {}", risultato);
-    control_flow();
-    println!("Tutorial completato con successo!");
-}
 
 fn variabili() {
     //variabili e costanti
@@ -96,4 +87,38 @@ fn control_flow() {
 
 
     
+}
+
+struct rettangolo {
+    width: u32,
+    height: u32,
+}
+
+impl rettangolo {
+    fn can_hold(&self, rettangolo: &rettangolo) -> bool {
+        self.width * self.height > rettangolo.width * rettangolo.height
+
+    }
+
+    fn quadrato(lato: u32) -> Self {
+        Self {
+            width: lato,
+            height: lato,
+        }
+    }
+}
+
+fn main() {
+    let rett1 = rettangolo {
+        width: 30,
+        height: 40,
+    };
+    let rett2 = rettangolo {
+        width: 20,
+        height: 40,
+    };
+    let quadr = rettangolo::quadrato(50);
+
+    println!("{}", rett1.can_hold(&rett2));
+    println!("{}", rett1.can_hold(&quadr));
 }
