@@ -15,3 +15,7 @@ enum  Carta {
     Re(String), 
 
 }
+
+fn main {
+
+}
