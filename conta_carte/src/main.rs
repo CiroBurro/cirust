@@ -16,6 +16,3 @@ enum  Carta {
 
 }
 
-fn main {
-
-}
