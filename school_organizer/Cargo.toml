@@ -1,0 +1,8 @@
+[package]
+name = "school_organizer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cursive = "*"
+cursive_tree_view = "*"
