@@ -6,10 +6,10 @@ pub struct Argomento{
     pub collegamenti: Vec<Argomento>
 }
 
-pub fn nuovo_argomento(titolo: &str, descrizione: &str ) -> Argomento{
+pub fn nuovo_argomento(titolo: String, descrizione: String ) -> Argomento{
     Argomento {
-        titolo: titolo.to_string(),
-        descrizione: descrizione.to_string(),
+        titolo,
+        descrizione,
         collegamenti: Vec::new()
         
     }
